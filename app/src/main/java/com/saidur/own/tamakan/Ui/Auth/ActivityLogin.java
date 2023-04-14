@@ -37,6 +37,7 @@ DBCrudHelper dbCrudHelper;
         {
             Intent in=new Intent(ActivityLogin.this, MainActivity.class);
             startActivity(in);
+            finish();
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out);
         }
         pd=new ProgressDialog(ActivityLogin.this);
@@ -87,6 +88,7 @@ DBCrudHelper dbCrudHelper;
             {
                 Intent in=new Intent(ActivityLogin.this, MainActivity.class);
                 startActivity(in);
+                finish();
                 overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out);
             }
 

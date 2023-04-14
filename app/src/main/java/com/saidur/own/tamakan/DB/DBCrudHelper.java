@@ -28,7 +28,7 @@ public class DBCrudHelper {
     @SuppressLint("Range")
     public boolean checkSessonExist() {
         SQLiteDatabase database = dbMain.getWritableDatabase();
-        Cursor cursor = database.rawQuery("SELECT * FROM  tblLoginProfile", null);
+        Cursor cursor = database.rawQuery("SELECT * FROM  tblSession", null);
         int count = cursor.getCount();
         if (count > 0) {
             return true;

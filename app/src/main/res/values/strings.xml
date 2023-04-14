@@ -12,4 +12,5 @@
     <string name="login_txt">Login</string>
     <string name="password">Password<font color='#FF0000'>*</font></string>
     <string name="email">Email<font color='#FF0000'>*</font></string>
+    <string name="todo">TODO</string>
 </resources>
